@@ -5,7 +5,7 @@ import os
 
 cv2.namedWindow("camCapture", cv2.WINDOW_AUTOSIZE)
 cap = cv2.VideoCapture()
-video_stream="rtsp://8.15.251.53:1935/rtplive/FairfaxVideo0020"
+video_stream="stream_link_here"
 
 if not cap.open(video_stream):
     print ("Not open")
